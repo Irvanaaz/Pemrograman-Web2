@@ -1,0 +1,19 @@
+CREATE DATABASE form_pendaftaran;
+
+CREATE TABLE mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tgl_input DATE NOT NULL,
+    kode VARCHAR(20) NOT NULL UNIQUE,
+    nama VARCHAR(100) NOT NULL,
+    jk VARCHAR(20) NOT NULL,
+    asal_sekolah VARCHAR(150) NOT NULL,
+    pekerjaan_ortu VARCHAR(100) NOT NULL,
+    tempat_lahir VARCHAR(100) NOT NULL,
+    tgl_lahir DATE NOT NULL,
+    mat DECIMAL(5,2) NOT NULL,
+    bing DECIMAL(5,2) NOT NULL,
+    umum DECIMAL(5,2) NOT NULL,
+    rata_rata DECIMAL(5,2) NOT NULL,
+    tempat_tes VARCHAR(50) NOT NULL,
+    keterangan VARCHAR(30) NOT NULL
+);

@@ -20,3 +20,4 @@ echo "Variabel \$var <b>$status</b> merupakan array";
 ?>
 </BODY>
 </html>
+
